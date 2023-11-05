@@ -103,6 +103,10 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
   </summary>
 
 <p align="left" width="260">
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript.png" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript-tipos-avanzados.png" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript-poo.png" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-terminal.png" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-discretas.png" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-data.png" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-estructuras.png" />
@@ -110,7 +114,6 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-lenguajes.png" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico.png" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-technical-writing.png" />
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-terminal.png" />
 </p>
 </details>
 
@@ -121,9 +124,9 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
   </summary>
 
 <p align="left" width="260">
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/CET%20-%20Aprende%20a%20dominar%20Git%20de%20cero%20a%20experto.jpg" />
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/CET%20-%20Git,%20GitHub%20y%20GitLab%20-%20Uso%20de%20repositorios%20de%20código.jpg" />
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/CET%20-%20Visual%20Studio%20Code%20-%20Mejora%20tu%20velocidad%20para%20codificar.jpg" />
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/CET%20-%20Curso%20de%20Typescript.jpg" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_cero_a_experto.jpg" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Typescript_Basico.jpg" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/TypeScript_Tu_completa_guía_y_manual_de_mano.jpg" />
 </p>
 </details>
