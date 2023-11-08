@@ -1,4 +1,3 @@
-
 <img align="center" style="border-radius: 100px" src="./assets/linkedin-Cover.png" />
 <p align="center" width="300">
    <h1 align="center">¡Hey 👋! Soy JavsDev 👨🏻‍💻</h1>
@@ -12,18 +11,17 @@
 
 ```javascript
 const JavsDev = {
-    askMeAbout: ["web dev", "tech", "designe system", "microfrontends"],
-    technologies: {
-        frontEnd: {
-            "js-ts": ["React", "Angular"],
-            "css": ["tailwind", "scss"]
-        },
-        backEnd: ["NodeJs", "expres", "javascript", "typescript"],
-        databases: ["MySql", "Postgres"],
-    }
+  askMeAbout: ['web dev', 'tech', 'designe system', 'microfrontends'],
+  technologies: {
+    frontEnd: {
+      'js-ts': ['React', 'Angular'],
+      css: ['tailwind', 'scss'],
+    },
+    backEnd: ['NodeJs', 'expres', 'javascript', 'typescript'],
+    databases: ['MySql', 'Postgres'],
+  },
 };
 ```
-
 
 ## 💎 Experiencia
 
@@ -35,12 +33,9 @@ Siempre en busca de nuevos aprendizajes para crecer al ritmo de la web 🌐.
 
 ## 📫 Contacto
 
-
 Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabogal/) por contacto de correo 📧 `jasabogal@utp.edu.co`
 
-
 ## 🛠️ Tech Skills
-
 
 <p align="left">
   <img src="https://img.shields.io/badge/js-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=fff" alt="javascript">
@@ -84,8 +79,6 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
 
 <!-- <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=jasvdev&theme=dark&count_private=true&bg_color=0d1116&title_color=ce09ec&text_color=a4aacb&icon_color=007ec6" alt="javsdev :: Profile Stats" /></p> -->
 
-
-
 <!-- <div align="center">
   <img src="https://img.shields.io/github/followers/JasvDev?logo=GitHub&style=for-the-badge" alt="javsdev :: follower" />
   <img src="https://img.shields.io/github/stars/JasvDev?logo=github&style=for-the-badge" alt="javsdev :: starts" />
@@ -96,11 +89,7 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
 
 </br>
 
-## Platzy 
-<details>
-  <summary>
-  Certificados
-  </summary>
+## Platzy
 
 <p align="left" width="260">
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript.png" />
@@ -115,18 +104,13 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico.png" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-technical-writing.png" />
 </p>
-</details>
 
-## Udemy 
-<details>
-  <summary>
-  Certificados
-  </summary>
+## Udemy
 
 <p align="left" width="260">
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Visual_Studio_Code_Mejora_tu_velocidad_para_codificar.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_cero_a_experto.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Typescript_Basico.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/TypeScript_Tu_completa_guía_y_manual_de_mano.jpg" />
 </p>
-</details>
