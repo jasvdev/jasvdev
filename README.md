@@ -11,14 +11,19 @@
 
 ```javascript
 const JavsDev = {
-  askMeAbout: ['web dev', 'tech', 'designe system', 'microfrontends'],
-  technologies: {
-    frontEnd: {
-      'js-ts': ['React', 'Angular'],
-      css: ['tailwind', 'scss'],
+  askMeAbout: [
+    'web dev',
+    'tech',
+    'designe system',
+    'microfrontends',
+    'Tech Skills',
+  ],
+  contact: {
+    email: 'jasabogal@utp.edu.co',
+    network: {
+      linkedin: 'https://www.linkedin.com/in/jasabogal/',
+      github: 'https://github.com/jasvdev',
     },
-    backEnd: ['NodeJs', 'expres', 'javascript', 'typescript'],
-    databases: ['MySql', 'Postgres'],
   },
 };
 ```
@@ -30,10 +35,6 @@ Soy un apasionado por el mundo del desarrollo web, tengo experiencia en varios f
 La logica de negocio en los que me he encontrado son diversos, desde entornos empresariales y startups ERPs, market places, pasarelas de pago, microfronteds, backoffices, designe system entre otros.
 
 Siempre en busca de nuevos aprendizajes para crecer al ritmo de la web 🌐.
-
-## 📫 Contacto
-
-Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabogal/) por contacto de correo 📧 `jasabogal@utp.edu.co`
 
 ## 🛠️ Tech Skills
 
@@ -72,10 +73,14 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
   <img src="https://img.shields.io/badge/sonarqube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=fff" alt="sonarqube">
 </p>
 
-## 📊 Estadisticas
+<!-- ## 📊 Estadisticas
 
 <p align="center"><img src="https://github-readme-stats.vercel.app/api?username=jasvdev&count_private=true&include_all_commits=true&show_icons=true&theme=react" alt="javsdev :: Profile Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasvdev&langs_count=10&theme=tokyonight&layout=compact" alt="javsdev :: Top Langs" /></p>
+</p> -->
+
+<!-- <p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasvdev&langs_count=10&theme=tokyonight&layout=compact" alt="javsdev :: Top Langs" />
+</p> -->
 
 <!-- <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=jasvdev&theme=dark&count_private=true&bg_color=0d1116&title_color=ce09ec&text_color=a4aacb&icon_color=007ec6" alt="javsdev :: Profile Stats" /></p> -->
 
@@ -85,7 +90,7 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
   <img src="https://img.shields.io/github/sponsors/JasvDev?color=BF4B8A&logo=githubsponsors&style=for-the-badge&label=Sponsor%20on%20Github" alt="javsdev :: sponsor" />
 </div> -->
 
-<img style="width:100%;height:3px;" src="./assets/bar.gif" />
+<!-- <img style="width:100%;height:3px;" src="./assets/bar.gif" /> -->
 
 </br>
 
@@ -108,9 +113,24 @@ Rapidamente me puedes encontrar en [LinkedIn](https://www.linkedin.com/in/jasabo
 ## Udemy
 
 <p align="left" width="260">
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Principios_SOLID_Clean_Code.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Visual_Studio_Code_Mejora_tu_velocidad_para_codificar.jpg" />
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_cero_a_experto.jpg" />
-<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Typescript_Basico.jpg" />
 <img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/TypeScript_Tu_completa_guía_y_manual_de_mano.jpg" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_cero_a_experto.jpg" />
+<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg" />
+</p>
+
+## Microsoft
+
+<p align="left" width="360">
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Colaboración_con_Git_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/create_update_project_git_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Código_con_GitHub_Codespaces_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/edición_de_código _creación_ramas_combinación_Git_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/generación_análisis_imágenes_GitHub_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/GitHub_Copilot_JavaScript_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Introducción_a_Git_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Introducción_GitHub_Copilot_page-0001.jpg" />
+<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/" />
 </p>
