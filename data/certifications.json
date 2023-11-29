@@ -1,0 +1,132 @@
+{
+  "platzy": [
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-computacion-basica_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-discretas.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-historia-innovacion_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-ingenieria_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-introweb_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-pensamiento-logico-data.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-pensamiento-logico-estructuras.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-pensamiento-logico-lenguajes.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-pensamiento-logico.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-programacion-basica_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-solid-csharp-net_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-solid-csharp-net.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-technical-writing.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-terminal.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-typescript.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-typescript-poo.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-typescript-tipos-avanzados.jpg"
+    }
+  ],
+  "udemy": [
+    {
+      "width": "260",
+      "src": "./assets/udemy/Git_cero_a_experto.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/udemy/Principios_SOLID_Clean_Code.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/udemy/Typescript_Basico.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/udemy/TypeScript_Tu_completa_guía_y_manual_de_mano.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/udemy/Visual_Studio_Code_Mejora_tu_velocidad_para_codificar.jpg"
+    }
+  ],
+  "microsoft": [
+    {
+      "width": "360",
+      "src": "./assets/microsoft/Colaboración_con_Git_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/create_update_project_git_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/Código_con_GitHub_Codespaces_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/edición_de_código _creación_ramas_combinación_Git_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/generación_análisis_imágenes_GitHub_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/GitHub_Copilot_JavaScript_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/Introducción_a_Git_page.jpg"
+    },
+    {
+      "width": "360",
+      "src": "./assets/microsoft/Introducción_GitHub_Copilot_page.jpg"
+    }
+  ]
+}

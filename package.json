@@ -1,0 +1,13 @@
+{
+  "name": "jasvdev",
+  "version": "1.0.0",
+  "description": "jasvdev README Github profile",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
