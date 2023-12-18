@@ -14,11 +14,19 @@
     },
     {
       "width": "260",
+      "src": "./assets/platzy/diploma-historia-programacion_page.jpg"
+    },
+    {
+      "width": "260",
       "src": "./assets/platzy/diploma-ingenieria_page.jpg"
     },
     {
       "width": "260",
       "src": "./assets/platzy/diploma-introweb_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-redes_page.jpg"
     },
     {
       "width": "260",
@@ -42,6 +50,14 @@
     },
     {
       "width": "260",
+      "src": "./assets/platzy/diploma-fundamentos-programacion_page.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-expresiones-regulares_page.jpg"
+    },
+    {
+      "width": "260",
       "src": "./assets/platzy/diploma-solid-csharp-net_page.jpg"
     },
     {
@@ -50,7 +66,15 @@
     },
     {
       "width": "260",
+      "src": "./assets/platzy/diploma-clean-code-csharp_page.jpg"
+    },
+    {
+      "width": "260",
       "src": "./assets/platzy/diploma-technical-writing.jpg"
+    },
+    {
+      "width": "260",
+      "src": "./assets/platzy/diploma-tecnologia-gerentes_page.jpg"
     },
     {
       "width": "260",

@@ -90,16 +90,22 @@ Siempre en busca de nuevos aprendizajes para crecer al ritmo de la web 🌐.
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-computacion-basica_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-discretas.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-historia-innovacion_page.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-historia-programacion_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-ingenieria_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-introweb_page.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-redes_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-data.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-estructuras.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-lenguajes.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-programacion-basica_page.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-fundamentos-programacion_page.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-expresiones-regulares_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-solid-csharp-net_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-solid-csharp-net.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-clean-code-csharp_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-technical-writing.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-tecnologia-gerentes_page.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-terminal.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript.jpg">
 	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript-poo.jpg">
