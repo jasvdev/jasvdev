@@ -1,44 +1,81 @@
-import { readFile } from 'fs/promises';
+import { readFile, readdir } from 'fs/promises';
 
 const jsonSkills = await readFile('./data/skills.json', 'utf-8');
-const jsonCertifications = await readFile(
-  './data/certifications.json',
-  'utf-8'
-);
+
+const getCertifications = async () => {
+    const certsDir = './assets/certifications';
+    const data = {};
+    const dirs = await readdir(certsDir, { withFileTypes: true });
+
+    for (const dir of dirs) {
+        if (dir.isDirectory()) {
+            const provider = dir.name;
+            console.log(provider);
+            const files = await readdir(`${certsDir}/${provider}`);
+            const images = files.filter((file) => /\.(jpg|jpeg|png|gif|webp)$/i.test(file));
+            
+            // microsoft images seem to need larger width based on previous json
+            const width = provider === 'microsoft' ? '360' : '260';
+
+            data[provider] = images.map((file) => ({
+                width,
+                src: `${certsDir}/${provider}/${file}`,
+            }));
+        }
+    }
+    console.log(data);
+    return data;
+};
 
 const dataSkills = JSON.parse(jsonSkills);
-const dataCertifications = JSON.parse(jsonCertifications);
+const dataCertifications = await getCertifications();
 
 export const TPL_HEADER = `
-<img align="center" style="border-radius: 100px" src="./assets/linkedin-Cover.png" />
-<p align="center" width="300">
-   <h1 align="center">¡Hey 👋! Soy JavsDev 👨🏻‍💻</h1>
-</p>
+<div align="center">
+  <img src="./assets/linkedin-Cover.png" width="100%" style="border-radius: 12px; margin-bottom: 20px; max-width: 800px;" alt="Cover Image" />
+  <h1 align="center">Hola, soy JavsDev 👨🏻‍💻</h1>
+  <h3 align="center">🚀 Frontend Developer | Tech Enthusiast</h3>
+</div>
 `;
 
 export const TPL_DESCRIPTION = `
-<p align="center">Soy <strong>Desarrollador Frontend apasionado por la web y las soluciones mobiles</strong> cuento con bastante experiencia en la industria de la programación.<br />Siempre en busca de nuevos retos en entornos ágiles, creativos y escalables.</p>
+<p align="center">
+  <strong>Transformando ideas en experiencias digitales escalables y de alto impacto.</strong> 🌟
+</p>
+
+<p align="center">
+  Especializado en el ecosistema <strong>Frontend</strong>, con un fuerte enfoque en <em>Arquitectura de Software</em>, <em>Design Systems</em> y <em>Micro-frontends</em>.
+  <br />
+  Me apasiona construir soluciones eficientes en entornos ágiles, priorizando siempre la calidad del código, la experiencia de usuario y el rendimiento.
+  <br />
+  <br />
+  <em>"Siempre aprendiendo, siempre creando."</em> 🚀
+</p>
 `;
 
 export const TPL_CODE_CONTACT = `
 \`\`\`javascript
 const JavsDev = {
-  askMeAbout: [
-    'web dev',
-    'tech',
-    'designe system',
-    'microfrontends',
-    'Tech Skills',
+  role: "Senior Frontend Engineer 👨‍💻",
+  passion: [
+    "Building Scalable Web Apps",
+    "UX/UI Architecture",
+    "Mobile Development"
   ],
-  contact: {
-    email: 'jasabogal@utp.edu.co',
-    network: {
-      linkedin: 'https://www.linkedin.com/in/jasabogal/',
-      github: 'https://github.com/jasvdev',
-    },
+  specialties: {
+    core: ["React", "TypeScript", "Next.js"],
+    architecture: ["Micro-frontends", "Design Systems", "Clean Architecture"],
   },
+  contact: {
+    email: "jasabogal@utp.edu.co",
+    social: {
+      linkedin: "https://www.linkedin.com/in/jasabogal/",
+      github: "https://github.com/jasvdev"
+    }
+  },
+  status: "Ready for new challenges! 🚀"
 };
- \`\`\`
+\`\`\`
 `;
 
 export const TPL_EXPERIENCE = `
@@ -69,6 +106,13 @@ ${IMG_SKILLS}
 `;
 
 // certifications
+const IMG_CERTIFICATIONS_DEVTALLES = dataCertifications.devTalles
+  .map(
+    ({ width, src }) =>
+      `\t<img width="${width}" style="border-radius: 20px; padding: 4px" src="${src}">`
+  )
+  .join('\n');
+
 const IMG_CERTIFICATIONS_PLATZY = dataCertifications.platzy
   .map(
     ({ width, src }) =>
@@ -91,6 +135,12 @@ const IMG_CERTIFICATIONS_MICROSOFT = dataCertifications.microsoft
   .join('\n');
 
 export const TPL_CERTIFICATIONS = `
+## DevTalles
+
+<p align="left" width="260">
+${IMG_CERTIFICATIONS_DEVTALLES}
+</p>
+
 ## Platzy
 
 <p align="left" width="260">

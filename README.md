@@ -1,14 +1,26 @@
 
-<img align="center" style="border-radius: 100px" src="./assets/linkedin-Cover.png" />
-<p align="center" width="300">
-   <h1 align="center">¡Hey 👋! Soy JavsDev 👨🏻‍💻</h1>
-</p>
+<div align="center">
+  <img src="./assets/linkedin-Cover.png" width="100%" style="border-radius: 12px; margin-bottom: 20px; max-width: 800px;" alt="Cover Image" />
+  <h1 align="center">Hola, soy JavsDev 👨🏻‍💻</h1>
+  <h3 align="center">🚀 Frontend Developer | Tech Enthusiast</h3>
+</div>
 
 
 </br>
 
 
-<p align="center">Soy <strong>Desarrollador Frontend apasionado por la web y las soluciones mobiles</strong> cuento con bastante experiencia en la industria de la programación.<br />Siempre en busca de nuevos retos en entornos ágiles, creativos y escalables.</p>
+<p align="center">
+  <strong>Transformando ideas en experiencias digitales escalables y de alto impacto.</strong> 🌟
+</p>
+
+<p align="center">
+  Especializado en el ecosistema <strong>Frontend</strong>, con un fuerte enfoque en <em>Arquitectura de Software</em>, <em>Design Systems</em> y <em>Micro-frontends</em>.
+  <br />
+  Me apasiona construir soluciones eficientes en entornos ágiles, priorizando siempre la calidad del código, la experiencia de usuario y el rendimiento.
+  <br />
+  <br />
+  <em>"Siempre aprendiendo, siempre creando."</em> 🚀
+</p>
 
 
 </br>
@@ -16,22 +28,26 @@
 
 ```javascript
 const JavsDev = {
-  askMeAbout: [
-    'web dev',
-    'tech',
-    'designe system',
-    'microfrontends',
-    'Tech Skills',
+  role: "Senior Frontend Engineer 👨‍💻",
+  passion: [
+    "Building Scalable Web Apps",
+    "UX/UI Architecture",
+    "Mobile Development"
   ],
-  contact: {
-    email: 'jasabogal@utp.edu.co',
-    network: {
-      linkedin: 'https://www.linkedin.com/in/jasabogal/',
-      github: 'https://github.com/jasvdev',
-    },
+  specialties: {
+    core: ["React", "TypeScript", "Next.js"],
+    architecture: ["Micro-frontends", "Design Systems", "Clean Architecture"],
   },
+  contact: {
+    email: "jasabogal@utp.edu.co",
+    social: {
+      linkedin: "https://www.linkedin.com/in/jasabogal/",
+      github: "https://github.com/jasvdev"
+    }
+  },
+  status: "Ready for new challenges! 🚀"
 };
- ```
+```
 
 
 
@@ -84,55 +100,63 @@ Siempre en busca de nuevos aprendizajes para crecer al ritmo de la web 🌐.
 
 
 
+## DevTalles
+
+<p align="left" width="260">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/devTalles/jose andres multimedia - 2024-08-13_page-0001.jpg">
+</p>
+
 ## Platzy
 
 <p align="left" width="260">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-computacion-basica_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-discretas.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-historia-innovacion_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-historia-programacion_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-ingenieria_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-introweb_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-redes_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-data.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-estructuras.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico-lenguajes.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-pensamiento-logico.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-programacion-basica_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-fundamentos-programacion_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-expresiones-regulares_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-solid-csharp-net_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-solid-csharp-net.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-clean-code-csharp_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-technical-writing.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-tecnologia-gerentes_page.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-terminal.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript-poo.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/platzy/diploma-typescript-tipos-avanzados.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-arquitecturas-css.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-colaboracion-diseno-desarrollo.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-css-grid.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-developer.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-discretas.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-diseno-product.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-expresiones-regulares.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-fundamentos-programacion.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-git-github.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-ingenieria2017.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-obs.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-patrones-componentes-diseno.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-pensamiento-logico-2022.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-pensamiento-logico-data.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-pensamiento-logico-estructuras-2022.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-pensamiento-logico-lenguajes-2022.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-sistemas-diseno.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-technical-writing.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-terminal-21.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-typescript-22.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-typescript-poo.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-typescript-tipos-avanzados.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/platzy/diploma-web-fundamentos.jpg">
 </p>
 
 ## Udemy
 
 <p align="left" width="260">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_cero_a_experto.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Principios_SOLID_Clean_Code.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Typescript_Basico.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/TypeScript_Tu_completa_guía_y_manual_de_mano.jpg">
-	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/udemy/Visual_Studio_Code_Mejora_tu_velocidad_para_codificar.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/udemy/Git_cero_a_experto.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/udemy/Git_GitHub_GitLab_Uso_de_repositorios_de_código.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/udemy/Principios_SOLID_Clean_Code.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/udemy/Typescript_Basico.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/udemy/TypeScript_Tu_completa_guía_y_manual_de_mano.jpg">
+	<img width="260" style="border-radius: 20px; padding: 4px" src="./assets/certifications/udemy/Visual_Studio_Code_Mejora_tu_velocidad_para_codificar.jpg">
 </p>
 
 ## Microsoft
 
 <p align="left" width="260">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Colaboración_con_Git_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/create_update_project_git_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Código_con_GitHub_Codespaces_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/edición_de_código _creación_ramas_combinación_Git_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/generación_análisis_imágenes_GitHub_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/GitHub_Copilot_JavaScript_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Introducción_a_Git_page.jpg">
-	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/microsoft/Introducción_GitHub_Copilot_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/Colaboración_con_Git_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/create_update_project_git_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/Código_con_GitHub_Codespaces_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/edición_de_código _creación_ramas_combinación_Git_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/generación_análisis_imágenes_GitHub_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/GitHub_Copilot_JavaScript_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/GitHub_Copilot_Python_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/Introducción_a_Git_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/Introducción_GitHub_Copilot_page.jpg">
+	<img width="360" style="border-radius: 20px; padding: 4px" src="./assets/certifications/microsoft/minijuego_GitHub_Copilot_page.jpg">
 </p>
 
