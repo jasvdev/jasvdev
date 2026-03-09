@@ -66,28 +66,10 @@
     "logo_color": ""
   },
   {
-    "img": "webpack-fff.svg",
-    "logo": "webpack",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "module_federation-4285F4.svg",
-    "logo": "jetpackcompose",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
     "img": "storybook-FF4785.svg",
     "logo": "storybook",
     "style": "for-the-badge",
     "logo_color": "FFFFFF"
-  },
-  {
-    "img": "testinglibrary-E33332.svg",
-    "logo": "testinglibrary",
-    "style": "for-the-badge",
-    "logo_color": ""
   },
   {
     "img": "nodejs-339933.svg",
@@ -116,12 +98,6 @@
   {
     "img": "jest-C21325.svg",
     "logo": "jest",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "vtex-ED125F.svg",
-    "logo": "vtex",
     "style": "for-the-badge",
     "logo_color": "FFFFFF"
   },
@@ -174,12 +150,6 @@
     "logo_color": ""
   },
   {
-    "img": "devexpress-FF7200.svg",
-    "logo": "devexpress",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
     "img": "antdesign-0170FE.svg",
     "logo": "antdesign",
     "style": "for-the-badge",
@@ -190,5 +160,89 @@
     "logo": "sonarqube",
     "style": "for-the-badge",
     "logo_color": "FFFFFF"
+  },
+  {
+    "img": "next.js-000000.svg",
+    "logo": "next.js",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "supabase-3ECF8E.svg",
+    "logo": "supabase",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "zustand-4A3C8B.svg",
+    "logo": "react",
+    "style": "for-the-badge",
+    "logo_color": "FFFFFF"
+  },
+  {
+    "img": "githubcopilot-181717.svg",
+    "logo": "githubcopilot",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "single--spa-eee.svg",
+    "logo": "singlespa",
+    "style": "for-the-badge",
+    "logo_color": "black"
+  },
+  {
+    "img": "reacthookform-%23EC5990.svg",
+    "logo": "reacthookform",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "zod-%233068b7.svg",
+    "logo": "zod",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "playwright-2EAD33.svg",
+    "logo": "playwright",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "mui-%230081CB.svg",
+    "logo": "mui",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "shadcn%2Fui-000000.svg",
+    "logo": "shadcnui",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "docker-%230db7ed.svg",
+    "logo": "docker",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "c%23-%23239120.svg",
+    "logo": "c-sharp",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": ".NET-5C2D91.svg",
+    "logo": "dotnet",
+    "style": "for-the-badge",
+    "logo_color": "white"
+  },
+  {
+    "img": "figma-%23F24E1E.svg",
+    "logo": "figma",
+    "style": "for-the-badge",
+    "logo_color": "white"
   }
 ]
