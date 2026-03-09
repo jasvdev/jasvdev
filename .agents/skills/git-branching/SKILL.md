@@ -2,10 +2,19 @@
 name: git-branching
 description: >
   Git branching strategy with branch naming conventions and validation rules.
-  Trigger: When creating new branches, validating branch types, or following git flow patterns.
+  Trigger: MANDATORY. Always apply when creating branches, pushing code, or
+  performing any git operation. Never skip this skill.
 metadata:
-  author: personal-academy
-  version: '1.0'
+  author: jasvdev
+  version: "2.0"
+---
+
+## ⚠️ MANDATORY — Always Apply
+
+This skill **MUST** be followed every time a branch is created or referenced.
+The agent must **never** create a branch without following this convention, even
+if not explicitly asked.
+
 ---
 
 ## When to Use
@@ -14,6 +23,7 @@ metadata:
 - Validating branch naming conventions
 - Ensuring correct branch type from correct source branch
 - Following git flow patterns with main/develop strategy
+- Any `git checkout -b` or `git switch -c` command
 
 ---
 
@@ -42,295 +52,126 @@ develop  → Development branch (features, fixes, bugfixes)
 ### Format
 
 ```
-(type)/name-dev/{id}={description}
+(type)/(dev-name)/(id)=(description)
 
-Donde:
+Where:
 - type:        feat | fix | bugfix | hotfix
-- name-dev:    Username from git config (before @)
-- id:          Task/ticket ID
-- description: Short kebab-case description
+- dev-name:    Username extracted from git config email (before @)
+- id:          Task/ticket ID (e.g. TSK-1, JIRA-42, BUG-7)
+- description: Short kebab-case description (no spaces, no uppercase)
 ```
 
 ### Examples
 
 ```bash
-# Feature branch
-feat/jose123/PA-001=add-login-feature
-
-# Fix branch
-fix/maria/PA-045=resolve-timeout-error
-
-# Bugfix branch
-bugfix/pedro/BUG-12=fix-null-pointer
-
-# Hotfix branch (from main)
-hotfix/carlos/HOT-3=critical-security-patch
+feat/jasabogal/TSK-1=add-login-feature
+fix/jasabogal/TSK-45=resolve-timeout-error
+bugfix/jasabogal/BUG-12=fix-null-pointer
+hotfix/jasabogal/HOT-3=critical-security-patch
 ```
 
 ---
 
-## Creating a New Branch
+## Creating a New Branch — Step-by-Step
 
-### Step-by-Step Process
-
-1. **Verify current branch**
+1. **Check current branch**
 
    ```bash
    git branch --show-current
    ```
 
 2. **Validate type matches source**
-   - If on `develop` → Use `feat`, `fix`, or `bugfix`
-   - If on `main` → Use `hotfix`
-   - If mismatch → Switch to correct branch first
+   - On `develop` → use `feat`, `fix`, or `bugfix`
+   - On `main` → use `hotfix`
+   - If mismatch → switch to correct branch first and pull latest
 
-3. **Get developer name**
+3. **Get developer name from git config**
 
    ```bash
-   # Extract username from git email
+   # Windows PowerShell
+   (git config user.email).Split('@')[0]
+
+   # Bash
    git config user.email | cut -d'@' -f1
    ```
 
-4. **Ask for task ID and description**
-   - Task ID: e.g., `PA-001`, `JIRA-123`, `BUG-45`
-   - Description: Short kebab-case, e.g., `add-oauth-login`
+4. **Compose branch name** using the format above
 
-5. **Create branch**
+5. **Create and switch to branch**
+
    ```bash
-   git checkout -b (type)/name-dev/{id}={description}
+   git checkout -b feat/jasabogal/TSK-1=add-login-feature
+   ```
+
+6. **Always pull latest from source before branching**
+
+   ```bash
+   git checkout develop && git pull origin develop
+   git checkout -b feat/jasabogal/TSK-1=description
    ```
 
 ---
 
 ## Validation Rules
 
-### ✅ Valid Scenarios
+### ✅ Valid
 
 ```bash
 # On develop branch
-git checkout develop
-git checkout -b feat/jose/PA-001=add-auth
-# ✅ Valid: feat from develop
-
-# On develop branch
-git checkout develop
-git checkout -b fix/maria/PA-045=timeout-fix
-# ✅ Valid: fix from develop
+git checkout -b feat/jasabogal/TSK-001=add-auth         # ✅
+git checkout -b fix/jasabogal/TSK-045=timeout-fix       # ✅
 
 # On main branch
-git checkout main
-git checkout -b hotfix/carlos/HOT-3=security-patch
-# ✅ Valid: hotfix from main
+git checkout -b hotfix/jasabogal/HOT-3=security-patch   # ✅
 ```
 
-### ❌ Invalid Scenarios
+### ❌ Invalid
 
 ```bash
-# On main branch trying to create feat
-git checkout main
-git checkout -b feat/jose/PA-001=add-feature
-# ❌ Invalid: feat must be from develop
-
-# On develop trying to create hotfix
-git checkout develop
-git checkout -b hotfix/maria/HOT-1=urgent-fix
-# ❌ Invalid: hotfix must be from main
+git checkout -b feat/jasabogal/TSK-001=add-feature      # ❌ if on main
+git checkout -b hotfix/jasabogal/HOT-1=urgent-fix       # ❌ if on develop
+git checkout -b feature/update                          # ❌ wrong format
+git checkout -b TSK-1-add-login                         # ❌ wrong format
 ```
 
 ---
 
-## Quick Commands
-
-### Get Current Branch
-
-```bash
-git branch --show-current
-```
-
-### Get Developer Name
-
-```bash
-# From email
-git config user.email | cut -d'@' -f1
-
-# From name (alternative)
-git config user.name | tr '[:upper:]' '[:lower:]' | tr ' ' '-'
-```
-
-### Create Branch (Full Command)
-
-```bash
-# Example for feature
-BRANCH_TYPE="feat"
-DEV_NAME=$(git config user.email | cut -d'@' -f1)
-TASK_ID="PA-001"
-DESCRIPTION="add-login-feature"
-
-git checkout -b "$BRANCH_TYPE/$DEV_NAME/$TASK_ID=$DESCRIPTION"
-```
-
-### Verify Branch Name Format
-
-```bash
-# Pattern: (type)/(dev)/(id)=(desc)
-git branch | grep -E '^(feat|fix|bugfix|hotfix)/[a-z0-9]+/[A-Z]+-[0-9]+=.*$'
-```
-
----
-
-## Interactive Branch Creation Script
-
-```bash
-#!/bin/bash
-
-# Get current branch
-CURRENT_BRANCH=$(git branch --show-current)
-
-# Get developer name from git config
-DEV_NAME=$(git config user.email | cut -d'@' -f1)
-
-echo "Current branch: $CURRENT_BRANCH"
-echo "Developer: $DEV_NAME"
-echo ""
-
-# Determine allowed types based on current branch
-if [ "$CURRENT_BRANCH" = "develop" ]; then
-    echo "Allowed types from develop: feat, fix, bugfix"
-    echo -n "Select type (feat/fix/bugfix): "
-    read BRANCH_TYPE
-
-    if [[ ! "$BRANCH_TYPE" =~ ^(feat|fix|bugfix)$ ]]; then
-        echo "❌ Invalid type for develop branch"
-        exit 1
-    fi
-elif [ "$CURRENT_BRANCH" = "main" ]; then
-    echo "Allowed type from main: hotfix"
-    echo -n "Select type (hotfix): "
-    read BRANCH_TYPE
-
-    if [ "$BRANCH_TYPE" != "hotfix" ]; then
-        echo "❌ Only hotfix allowed from main"
-        exit 1
-    fi
-else
-    echo "❌ Must be on main or develop to create branch"
-    exit 1
-fi
-
-# Ask for task ID
-echo -n "Task ID (e.g., PA-001): "
-read TASK_ID
-
-# Ask for description
-echo -n "Description (kebab-case, e.g., add-login): "
-read DESCRIPTION
-
-# Create branch name
-BRANCH_NAME="$BRANCH_TYPE/$DEV_NAME/$TASK_ID=$DESCRIPTION"
-
-echo ""
-echo "Creating branch: $BRANCH_NAME"
-git checkout -b "$BRANCH_NAME"
-```
-
----
-
-## PowerShell Version (Windows)
+## Quick Reference Commands
 
 ```powershell
 # Get current branch
-$currentBranch = git branch --show-current
+git branch --show-current
 
-# Get developer name
-$email = git config user.email
-$devName = $email.Split('@')[0]
+# Get dev name (PowerShell)
+(git config user.email).Split('@')[0]
 
-Write-Host "Current branch: $currentBranch"
-Write-Host "Developer: $devName"
-Write-Host ""
+# Full example (PowerShell)
+$devName = (git config user.email).Split('@')[0]
+git checkout -b "feat/$devName/TSK-1=add-auth"
 
-# Validate and get type
-if ($currentBranch -eq "develop") {
-    Write-Host "Allowed types: feat, fix, bugfix"
-    $branchType = Read-Host "Select type"
+# Verify format
+git branch | Select-String -Pattern '^(feat|fix|bugfix|hotfix)/\w+/\w+-\d+=.+'
 
-    if ($branchType -notin @("feat", "fix", "bugfix")) {
-        Write-Host "❌ Invalid type for develop branch" -ForegroundColor Red
-        exit 1
-    }
-} elseif ($currentBranch -eq "main") {
-    Write-Host "Allowed type: hotfix"
-    $branchType = Read-Host "Select type"
-
-    if ($branchType -ne "hotfix") {
-        Write-Host "❌ Only hotfix allowed from main" -ForegroundColor Red
-        exit 1
-    }
-} else {
-    Write-Host "❌ Must be on main or develop" -ForegroundColor Red
-    exit 1
-}
-
-# Get task details
-$taskId = Read-Host "Task ID (e.g., PA-001)"
-$description = Read-Host "Description (kebab-case)"
-
-# Create branch
-$branchName = "$branchType/$devName/$taskId=$description"
-Write-Host "`nCreating branch: $branchName" -ForegroundColor Green
-git checkout -b $branchName
+# Push branch
+git push -u origin (git branch --show-current)
 ```
 
 ---
 
-## Best Practices
+## Integration with Commit Convention
 
-1. **Always start from updated branch**
-
-   ```bash
-   git checkout develop
-   git pull origin develop
-   git checkout -b feat/name/id=description
-   ```
-
-2. **Use descriptive task IDs**
-   - Good: `PA-001`, `JIRA-123`, `BUG-45`
-   - Bad: `1`, `task`, `test`
-
-3. **Keep descriptions short and clear**
-   - Good: `add-oauth-login`, `fix-timeout-error`
-   - Bad: `feature`, `update`, `changes`
-
-4. **Follow kebab-case**
-   - Good: `add-user-profile`
-   - Bad: `addUserProfile`, `add_user_profile`
-
-5. **Verify before pushing**
-   ```bash
-   git branch  # Verify name is correct
-   git log     # Verify commits follow emoji convention
-   git push -u origin $(git branch --show-current)
-   ```
-
----
-
-## Integration with Commit System
-
-Branches work seamlessly with the automatic emoji commit system:
+Branches work with the automatic emoji commit system. See `git-commits` skill.
 
 ```bash
 # Create branch
-git checkout -b feat/jose/PA-001=add-login
+git checkout -b feat/jasabogal/TSK-1=add-login
 
-# Make commits (emojis added automatically)
+# Commit (emojis auto-injected by Husky)
 git commit -m "feat(auth): add login component"
-# Result: feat(auth): :sparkles: add login component
+# → Stored as: feat(auth): :sparkles: add login component
 
-git commit -m "test(auth): add login tests"
-# Result: test(auth): :white_check_mark: add login tests
-
-# Push branch
-git push -u origin feat/jose/PA-001=add-login
+# Push
+git push -u origin feat/jasabogal/TSK-1=add-login
 ```
 
 ---
@@ -340,42 +181,22 @@ git push -u origin feat/jose/PA-001=add-login
 ### Feature Development
 
 ```bash
-# 1. Start from develop
 git checkout develop
 git pull origin develop
-
-# 2. Create feature branch
-git checkout -b feat/jose/PA-001=user-authentication
-
-# 3. Work and commit
-git commit -m "feat(auth): add login form"
-git commit -m "feat(auth): add OAuth provider"
-git commit -m "test(auth): add authentication tests"
-
-# 4. Push
-git push -u origin feat/jose/PA-001=user-authentication
-
-# 5. Create PR to develop
+git checkout -b feat/jasabogal/TSK-001=user-authentication
+# ... work ...
+git push -u origin feat/jasabogal/TSK-001=user-authentication
 gh pr create --base develop --title "feat(auth): add user authentication"
 ```
 
 ### Production Hotfix
 
 ```bash
-# 1. Start from main
 git checkout main
 git pull origin main
-
-# 2. Create hotfix branch
-git checkout -b hotfix/maria/HOT-3=security-patch
-
-# 3. Fix and commit
-git commit -m "fix(security): patch XSS vulnerability"
-
-# 4. Push
-git push -u origin hotfix/maria/HOT-3=security-patch
-
-# 5. Create PR to main AND develop
+git checkout -b hotfix/jasabogal/HOT-3=security-patch
+# ... fix ...
+git push -u origin hotfix/jasabogal/HOT-3=security-patch
 gh pr create --base main --title "hotfix(security): patch XSS vulnerability"
 gh pr create --base develop --title "hotfix(security): patch XSS vulnerability"
 ```
