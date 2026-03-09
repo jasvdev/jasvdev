@@ -51,44 +51,44 @@ Trabajo en entornos ágiles bajo la primicia de que el **clean code**, la **expe
 <p align="left">
   <img src="https://img.shields.io/badge/js-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=FFFFFF" alt="javascript" height="28" />
   <img src="https://img.shields.io/badge/ts-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=FFFFFF" alt="typescript" height="28" />
-  <img src="https://img.shields.io/badge/react-fff.svg?style=for-the-badge&logo=react" alt="react" height="28" />
-  <img src="https://img.shields.io/badge/react_native-3aabe8.svg?style=for-the-badge&logo=react&logoColor=FFFFFF" alt="react" height="28" />
-  <img src="https://img.shields.io/badge/Angular-DD0031.svg?style=for-the-badge&logo=angular" alt="angular" height="28" />
-  <img src="https://img.shields.io/badge/ionic-3880FF.svg?style=for-the-badge&logo=ionic&logoColor=FFFFFF" alt="ionic" height="28" />
-  <img src="https://img.shields.io/badge/pwa-5A0FC8.svg?style=for-the-badge&logo=pwa" alt="pwa" height="28" />
-  <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=FFFFFF" alt="git" height="28" />
-  <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="github" height="28" />
-  <img src="https://img.shields.io/badge/redux-764ABC.svg?style=for-the-badge&logo=redux" alt="redux" height="28" />
-  <img src="https://img.shields.io/badge/vscode-blue.svg?style=for-the-badge&logo=visual" alt="visual" height="28" />
-  <img src="https://img.shields.io/badge/storybook-FF4785.svg?style=for-the-badge&logo=storybook&logoColor=FFFFFF" alt="storybook" height="28" />
-  <img src="https://img.shields.io/badge/nodejs-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF" alt="nodedotjs" height="28" />
-  <img src="https://img.shields.io/badge/express-000.svg?style=for-the-badge&logo=express&logoColor=FFFFFF" alt="express" height="28" />
-  <img src="https://img.shields.io/badge/vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=FFFFFF" alt="vite" height="28" />
-  <img src="https://img.shields.io/badge/vitest-6E9F18.svg?style=for-the-badge&logo=vitest&logoColor=FFFFFF" alt="vitest" height="28" />
-  <img src="https://img.shields.io/badge/jest-C21325.svg?style=for-the-badge&logo=jest&logoColor=FFFFFF" alt="jest" height="28" />
   <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=FFFFFF" alt="html5" height="28" />
   <img src="https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=FFFFFF" alt="css3" height="28" />
-  <img src="https://img.shields.io/badge/tailwind-06B6D4.svg?style=for-the-badge&logo=tailwindcss" alt="tailwindcss" height="28" />
-  <img src="https://img.shields.io/badge/eslint-4B32C3.svg?style=for-the-badge&logo=eslint&logoColor=FFFFFF" alt="eslint" height="28" />
-  <img src="https://img.shields.io/badge/stylelint-263238.svg?style=for-the-badge&logo=stylelint&logoColor=FFFFFF" alt="stylelint" height="28" />
-  <img src="https://img.shields.io/badge/prettier-F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=FFFFFF" alt="prettier" height="28" />
-  <img src="https://img.shields.io/badge/commitlint-000.svg?style=for-the-badge&logo=commitlint&logoColor=FFFFFF" alt="commitlint" height="28" />
-  <img src="https://img.shields.io/badge/conventionalcommits-FE5196.svg?style=for-the-badge&logo=conventionalcommits" alt="conventionalcommits" height="28" />
-  <img src="https://img.shields.io/badge/antdesign-0170FE.svg?style=for-the-badge&logo=antdesign&logoColor=FFFFFF" alt="antdesign" height="28" />
-  <img src="https://img.shields.io/badge/sonarqube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=FFFFFF" alt="sonarqube" height="28" />
+  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="c-sharp" height="28" />
+  <img src="https://img.shields.io/badge/react-fff.svg?style=for-the-badge&logo=react" alt="react" height="28" />
   <img src="https://img.shields.io/badge/next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white" alt="next.js" height="28" />
-  <img src="https://img.shields.io/badge/supabase-3ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white" alt="supabase" height="28" />
-  <img src="https://img.shields.io/badge/zustand-4A3C8B.svg?style=for-the-badge&logo=react&logoColor=FFFFFF" alt="react" height="28" />
-  <img src="https://img.shields.io/badge/githubcopilot-181717.svg?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="githubcopilot" height="28" />
+  <img src="https://img.shields.io/badge/Angular-DD0031.svg?style=for-the-badge&logo=angular" alt="angular" height="28" />
   <img src="https://img.shields.io/badge/single--spa-eee.svg?style=for-the-badge&logo=singlespa&logoColor=black" alt="singlespa" height="28" />
-  <img src="https://img.shields.io/badge/reacthookform-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white" alt="reacthookform" height="28" />
-  <img src="https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white" alt="zod" height="28" />
-  <img src="https://img.shields.io/badge/playwright-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white" alt="playwright" height="28" />
+  <img src="https://img.shields.io/badge/tailwind-06B6D4.svg?style=for-the-badge&logo=tailwindcss" alt="tailwindcss" height="28" />
   <img src="https://img.shields.io/badge/mui-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="mui" height="28" />
   <img src="https://img.shields.io/badge/shadcn%2Fui-000000.svg?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcnui" height="28" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="docker" height="28" />
-  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="c-sharp" height="28" />
+  <img src="https://img.shields.io/badge/antdesign-0170FE.svg?style=for-the-badge&logo=antdesign&logoColor=FFFFFF" alt="antdesign" height="28" />
+  <img src="https://img.shields.io/badge/redux-764ABC.svg?style=for-the-badge&logo=redux" alt="redux" height="28" />
+  <img src="https://img.shields.io/badge/zustand-4A3C8B.svg?style=for-the-badge&logo=react&logoColor=FFFFFF" alt="react" height="28" />
+  <img src="https://img.shields.io/badge/reacthookform-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white" alt="reacthookform" height="28" />
+  <img src="https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white" alt="zod" height="28" />
+  <img src="https://img.shields.io/badge/react_native-3aabe8.svg?style=for-the-badge&logo=react&logoColor=FFFFFF" alt="react" height="28" />
+  <img src="https://img.shields.io/badge/ionic-3880FF.svg?style=for-the-badge&logo=ionic&logoColor=FFFFFF" alt="ionic" height="28" />
+  <img src="https://img.shields.io/badge/pwa-5A0FC8.svg?style=for-the-badge&logo=pwa" alt="pwa" height="28" />
+  <img src="https://img.shields.io/badge/nodejs-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF" alt="nodedotjs" height="28" />
+  <img src="https://img.shields.io/badge/express-000.svg?style=for-the-badge&logo=express&logoColor=FFFFFF" alt="express" height="28" />
   <img src="https://img.shields.io/badge/.NET-5C2D91.svg?style=for-the-badge&logo=dotnet&logoColor=white" alt="dotnet" height="28" />
+  <img src="https://img.shields.io/badge/supabase-3ECF8E.svg?style=for-the-badge&logo=supabase&logoColor=white" alt="supabase" height="28" />
+  <img src="https://img.shields.io/badge/jest-C21325.svg?style=for-the-badge&logo=jest&logoColor=FFFFFF" alt="jest" height="28" />
+  <img src="https://img.shields.io/badge/vitest-6E9F18.svg?style=for-the-badge&logo=vitest&logoColor=FFFFFF" alt="vitest" height="28" />
+  <img src="https://img.shields.io/badge/playwright-2EAD33.svg?style=for-the-badge&logo=playwright&logoColor=white" alt="playwright" height="28" />
+  <img src="https://img.shields.io/badge/vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=FFFFFF" alt="vite" height="28" />
+  <img src="https://img.shields.io/badge/storybook-FF4785.svg?style=for-the-badge&logo=storybook&logoColor=FFFFFF" alt="storybook" height="28" />
+  <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=FFFFFF" alt="git" height="28" />
+  <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="github" height="28" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="docker" height="28" />
+  <img src="https://img.shields.io/badge/sonarqube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=FFFFFF" alt="sonarqube" height="28" />
+  <img src="https://img.shields.io/badge/eslint-4B32C3.svg?style=for-the-badge&logo=eslint&logoColor=FFFFFF" alt="eslint" height="28" />
+  <img src="https://img.shields.io/badge/prettier-F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=FFFFFF" alt="prettier" height="28" />
+  <img src="https://img.shields.io/badge/stylelint-263238.svg?style=for-the-badge&logo=stylelint&logoColor=FFFFFF" alt="stylelint" height="28" />
+  <img src="https://img.shields.io/badge/commitlint-000.svg?style=for-the-badge&logo=commitlint&logoColor=FFFFFF" alt="commitlint" height="28" />
+  <img src="https://img.shields.io/badge/conventionalcommits-FE5196.svg?style=for-the-badge&logo=conventionalcommits" alt="conventionalcommits" height="28" />
+  <img src="https://img.shields.io/badge/githubcopilot-181717.svg?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="githubcopilot" height="28" />
+  <img src="https://img.shields.io/badge/vscode-blue.svg?style=for-the-badge&logo=visual" alt="visual" height="28" />
   <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="figma" height="28" />
 </p>
 
@@ -162,7 +162,5 @@ Trabajo en entornos ágiles bajo la primicia de que el **clean code**, la **expe
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jasvdev&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-  <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jasvdev&theme=dark&hide_border=true" alt="GitHub Streak" />
 </div>

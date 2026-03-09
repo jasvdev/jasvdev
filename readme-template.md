@@ -48,9 +48,7 @@ Trabajo en entornos ágiles bajo la primicia de que el **clean code**, la **expe
 
 ## 🛠️ Tech Skills
 
-<p align="left">
 {{SKILLS}}
-</p>
 
 ## 📜 Certificaciones
 
