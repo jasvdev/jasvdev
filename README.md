@@ -5,13 +5,13 @@
 </div>
 
 <p align="center">
-  <strong>Construyendo experiencias digitales de alto impacto con arquitectura sólida y código limpio.</strong> 🌟
+  <strong>Transformando problemas complejos en interfaces intuitivas, escalables y de alto rendimiento.</strong> 🌟
 </p>
 
 <p align="center">
-  Ingeniero Frontend especializado en aplicaciones web escalables, con enfoque en <em>Arquitectura de Software</em>, <em>Design Systems</em> y <em>Micro-frontends</em>.
+  Especialista en desarrollo frontend con un enfoque profundo en <em>Arquitectura de Software</em>, <em>Design Systems</em> y <em>Micro-frontends</em>.
   <br />
-  Trabajo en entornos ágiles donde la calidad del código, la experiencia de usuario y el rendimiento no son opcionales.
+  Me considero un aliado estratégico en el ciclo de desarrollo: voy más allá de escribir código para construir bases sólidas que permiten a los equipos iterar rápido sin sacrificar la calidad.
   <br />
   <br />
   <em>"Siempre aprendiendo, siempre creando."</em> 🚀
@@ -42,11 +42,9 @@ const JavsDev = {
 
 ## 💎 Experiencia
 
-Ingeniero apasionado por el desarrollo web, con experiencia en frameworks comerciales y buenas prácticas de ingeniería de software. He colaborado con equipos multidisciplinarios en distintos entornos y culturas de trabajo, siempre desde una perspectiva ágil.
+A lo largo de mi carrera, he aportado valor en diversos ecosistemas de negocio: desde ERPs empresariales y startups, hasta marketplaces, pasarelas de pago y plataformas SaaS. Disfruto colaborar estrechamente con equipos multidisciplinarios para alinear los retos técnicos con los objetivos del producto.
 
-Los dominios de negocio en los que he participado son variados: ERPs empresariales, startups, marketplaces, pasarelas de pago, microfrontends, backoffices y design systems, entre otros.
-
-Siempre en búsqueda de nuevos aprendizajes para crecer al ritmo de la web 🌐.
+Trabajo en entornos ágiles bajo la primicia de que el **clean code**, la **experiencia de usuario (UX)** y el **rendimiento** no son opcionales, sino el pilar de un buen producto. Siempre estoy explorando nuevas herramientas y paradigmas para crecer al ritmo de la web 🌐.
 
 ## 🛠️ Tech Skills
 
