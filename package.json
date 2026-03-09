@@ -1,0 +1,37 @@
+{
+  "name": "dev.nodejs.base",
+  "version": "1.0.0",
+  "description": "Repositorio base para un proyecto en Node.js con configuración de commits convencionales",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "husky",
+    "convert-pdfs": "tsx src/convert-pdfs.ts",
+    "generate-readme": "tsx src/generate-readme.ts",
+    "prepare-assets": "pnpm convert-pdfs && pnpm generate-readme"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "base",
+    "template"
+  ],
+  "author": "jasvdev",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
+    "@napi-rs/canvas": "^0.1.96",
+    "@types/node": "^25.3.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.2",
+    "pdfjs-dist": "^5.5.207",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "pnpm@10.6.2"
+}
