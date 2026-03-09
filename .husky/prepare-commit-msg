@@ -1,0 +1,1 @@
+node .husky/add-emoji.js $1
