@@ -50,9 +50,7 @@ Siempre en búsqueda de nuevos aprendizajes para crecer al ritmo de la web 🌐.
 
 ## 🛠️ Tech Skills
 
-<p align="left">
 {{SKILLS}}
-</p>
 
 ## 📜 Certificaciones
 

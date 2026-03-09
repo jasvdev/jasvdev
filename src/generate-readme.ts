@@ -20,16 +20,20 @@ const PROVIDER_LABELS: Record<string, string> = {
   devTalles: "DevTalles",
 };
 
-function buildSkillsBadges(skills: ISkill[]): string {
-  return skills
-    .map((skill) => {
-      const logoColor = skill.logo_color
-        ? `&logoColor=${skill.logo_color}`
-        : "";
-      const url = `https://img.shields.io/badge/${skill.img}?style=${skill.style}&logo=${skill.logo}${logoColor}`;
-      return `  <img src="${url}" alt="${skill.logo}" height="28" />`;
-    })
+function buildSkillsBadges(skillsGrouped: Record<string, ISkill[]>): string {
+  const badges = Object.values(skillsGrouped)
+    .flatMap((skills) =>
+      skills.map((skill) => {
+        const logoColor = skill.logo_color
+          ? `&logoColor=${skill.logo_color}`
+          : "";
+        const url = `https://img.shields.io/badge/${skill.img}?style=${skill.style}&logo=${skill.logo}${logoColor}`;
+        return `  <img src="${url}" alt="${skill.logo}" height="28" />`;
+      }),
+    )
     .join("\n");
+
+  return `<p align="left">\n${badges}\n</p>`;
 }
 
 function scanCertifications(certsDir: string): tyCertGroup {
@@ -43,12 +47,12 @@ function scanCertifications(certsDir: string): tyCertGroup {
     if (!stat.isDirectory()) continue;
 
     const jpgs = readdirSync(providerPath).filter(
-      (f) => extname(f).toLowerCase() === ".jpg"
+      (f) => extname(f).toLowerCase() === ".jpg",
     );
 
     if (jpgs.length > 0) {
-      groups[provider] = jpgs.map((f) =>
-        `src/assets/certifications/${provider}/${f}`
+      groups[provider] = jpgs.map(
+        (f) => `src/assets/certifications/${provider}/${f}`,
       );
     }
   }
@@ -73,8 +77,6 @@ function buildCertificationsSection(groups: tyCertGroup): string {
 
 function buildStatsSection(): string {
   return `<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jasvdev&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-  <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jasvdev&theme=dark&hide_border=true" alt="GitHub Streak" />
 </div>`;
 }
@@ -88,7 +90,7 @@ console.log("Generating README.md...");
 
 try {
   const template = readFileSync(templatePath, "utf-8");
-  const skills: ISkill[] = require(skillsPath);
+  const skills: Record<string, ISkill[]> = require(skillsPath);
   const certGroups = scanCertifications(certsDir);
 
   const readme = template

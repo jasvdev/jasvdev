@@ -1,194 +1,268 @@
-[
-  {
-    "img": "js-F7DF1E.svg",
-    "logo": "javascript",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "ts-3178C6.svg",
-    "logo": "typescript",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "react-fff.svg",
-    "logo": "react",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "react_native-3aabe8.svg",
-    "logo": "react",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "Angular-DD0031.svg",
-    "logo": "angular",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "ionic-3880FF.svg",
-    "logo": "ionic",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "pwa-5A0FC8.svg",
-    "logo": "pwa",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "git-F05032.svg",
-    "logo": "git",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "github-181717.svg",
-    "logo": "github",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "redux-764ABC.svg",
-    "logo": "redux",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "vscode-blue.svg",
-    "logo": "visual",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "webpack-fff.svg",
-    "logo": "webpack",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "module_federation-4285F4.svg",
-    "logo": "jetpackcompose",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "storybook-FF4785.svg",
-    "logo": "storybook",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "testinglibrary-E33332.svg",
-    "logo": "testinglibrary",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "nodejs-339933.svg",
-    "logo": "nodedotjs",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "express-000.svg",
-    "logo": "express",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "vite-646CFF.svg",
-    "logo": "vite",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "vitest-6E9F18.svg",
-    "logo": "vitest",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "jest-C21325.svg",
-    "logo": "jest",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "vtex-ED125F.svg",
-    "logo": "vtex",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "html5-E34F26.svg",
-    "logo": "html5",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "css3-1572B6.svg",
-    "logo": "css3",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "tailwind-06B6D4.svg",
-    "logo": "tailwindcss",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "eslint-4B32C3.svg",
-    "logo": "eslint",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "stylelint-263238.svg",
-    "logo": "stylelint",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "prettier-F7B93E.svg",
-    "logo": "prettier",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "commitlint-000.svg",
-    "logo": "commitlint",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "conventionalcommits-FE5196.svg",
-    "logo": "conventionalcommits",
-    "style": "for-the-badge",
-    "logo_color": ""
-  },
-  {
-    "img": "devexpress-FF7200.svg",
-    "logo": "devexpress",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "antdesign-0170FE.svg",
-    "logo": "antdesign",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  },
-  {
-    "img": "sonarqube-4E9BCD.svg",
-    "logo": "sonarqube",
-    "style": "for-the-badge",
-    "logo_color": "FFFFFF"
-  }
-]
+{
+  "Lenguajes & Core": [
+    {
+      "img": "js-F7DF1E.svg",
+      "logo": "javascript",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "ts-3178C6.svg",
+      "logo": "typescript",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "html5-E34F26.svg",
+      "logo": "html5",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "css3-1572B6.svg",
+      "logo": "css3",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "c%23-%23239120.svg",
+      "logo": "c-sharp",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    }
+  ],
+  "Frameworks Frontend": [
+    {
+      "img": "react-fff.svg",
+      "logo": "react",
+      "style": "for-the-badge",
+      "logo_color": ""
+    },
+    {
+      "img": "next.js-000000.svg",
+      "logo": "next.js",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "Angular-DD0031.svg",
+      "logo": "angular",
+      "style": "for-the-badge",
+      "logo_color": ""
+    },
+    {
+      "img": "single--spa-eee.svg",
+      "logo": "singlespa",
+      "style": "for-the-badge",
+      "logo_color": "black"
+    }
+  ],
+  "Librerías UI & Estilos": [
+    {
+      "img": "tailwind-06B6D4.svg",
+      "logo": "tailwindcss",
+      "style": "for-the-badge",
+      "logo_color": ""
+    },
+    {
+      "img": "mui-%230081CB.svg",
+      "logo": "mui",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "shadcn%2Fui-000000.svg",
+      "logo": "shadcnui",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "antdesign-0170FE.svg",
+      "logo": "antdesign",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    }
+  ],
+  "Estado & Formularios": [
+    {
+      "img": "redux-764ABC.svg",
+      "logo": "redux",
+      "style": "for-the-badge",
+      "logo_color": ""
+    },
+    {
+      "img": "zustand-4A3C8B.svg",
+      "logo": "react",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "reacthookform-%23EC5990.svg",
+      "logo": "reacthookform",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "zod-%233068b7.svg",
+      "logo": "zod",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    }
+  ],
+  "Mobile & PWA": [
+    {
+      "img": "react_native-3aabe8.svg",
+      "logo": "react",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "ionic-3880FF.svg",
+      "logo": "ionic",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "pwa-5A0FC8.svg",
+      "logo": "pwa",
+      "style": "for-the-badge",
+      "logo_color": ""
+    }
+  ],
+  "Backend & Bases de Datos": [
+    {
+      "img": "nodejs-339933.svg",
+      "logo": "nodedotjs",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "express-000.svg",
+      "logo": "express",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": ".NET-5C2D91.svg",
+      "logo": "dotnet",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "supabase-3ECF8E.svg",
+      "logo": "supabase",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    }
+  ],
+  "Testing": [
+    {
+      "img": "jest-C21325.svg",
+      "logo": "jest",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "vitest-6E9F18.svg",
+      "logo": "vitest",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "playwright-2EAD33.svg",
+      "logo": "playwright",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    }
+  ],
+  "Herramientas & DevTools": [
+    {
+      "img": "vite-646CFF.svg",
+      "logo": "vite",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "storybook-FF4785.svg",
+      "logo": "storybook",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "git-F05032.svg",
+      "logo": "git",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "github-181717.svg",
+      "logo": "github",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "docker-%230db7ed.svg",
+      "logo": "docker",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "sonarqube-4E9BCD.svg",
+      "logo": "sonarqube",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    }
+  ],
+  "Calidad & Code Style": [
+    {
+      "img": "eslint-4B32C3.svg",
+      "logo": "eslint",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "prettier-F7B93E.svg",
+      "logo": "prettier",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "stylelint-263238.svg",
+      "logo": "stylelint",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "commitlint-000.svg",
+      "logo": "commitlint",
+      "style": "for-the-badge",
+      "logo_color": "FFFFFF"
+    },
+    {
+      "img": "conventionalcommits-FE5196.svg",
+      "logo": "conventionalcommits",
+      "style": "for-the-badge",
+      "logo_color": ""
+    }
+  ],
+  "Varios": [
+    {
+      "img": "githubcopilot-181717.svg",
+      "logo": "githubcopilot",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    },
+    {
+      "img": "vscode-blue.svg",
+      "logo": "visual",
+      "style": "for-the-badge",
+      "logo_color": ""
+    },
+    {
+      "img": "figma-%23F24E1E.svg",
+      "logo": "figma",
+      "style": "for-the-badge",
+      "logo_color": "white"
+    }
+  ]
+}
