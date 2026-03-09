@@ -90,7 +90,6 @@ Siempre en búsqueda de nuevos aprendizajes para crecer al ritmo de la web 🌐.
 ### DevTalles
 <p align="left">
   <img src="src/assets/certifications/devTalles/Zustand - Gestor de estado para React.jpg" alt="Zustand - Gestor de estado para React" height="120" />
-  <img src="src/assets/certifications/devTalles/Zustand,Gestor_de_estado_para_react.jpg" alt="Zustand,Gestor_de_estado_para_react" height="120" />
 </p>
 
 ### Microsoft
