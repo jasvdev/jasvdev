@@ -1,0 +1,4 @@
+pnpm convert-pdfs
+pnpm generate-readme
+git add src/assets/certifications README.md
+pnpm exec lint-staged
