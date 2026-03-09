@@ -2,42 +2,54 @@
 name: git-commits
 description: >
   Git commit convention with automatic emoji injection via Husky.
-  Trigger: When making commits, writing commit messages, or explaining the conventional commit format used in this project.
+  Trigger: MANDATORY. Always apply when writing any git commit message.
+  Never write a commit without following this format, even if not asked.
 metadata:
   author: jasvdev
-  version: '1.0'
+  version: "2.0"
+---
+
+## ⚠️ MANDATORY — Always Apply
+
+This skill **MUST** be followed for every single commit in this project.
+The agent must **never** suggest or write a commit message that doesn't comply
+with this convention, even if the user writes one informally.
+
+> 🚫 **NEVER add emojis manually.** Husky injects them automatically.
+> If you add an emoji yourself, the hook will double-inject it.
+
 ---
 
 ## When to Use
 
-- Writing or suggesting a git commit message
-- Explaining what commit types are available
-- Understanding what emoji will be auto-injected
-- Validating that a commit message follows the project convention
+- Writing or suggesting any `git commit -m` command
+- Explaining available commit types
+- Reviewing or fixing a commit message
+- Staging and committing changes
 
 ---
 
 ## How It Works
 
-This project uses **Conventional Commits** with **automatic emoji injection** via Husky hooks:
+**Conventional Commits + automatic emoji injection via Husky hooks:**
 
-| Hook                 | File           | Responsibility                            |
-| -------------------- | -------------- | ----------------------------------------- |
-| `prepare-commit-msg` | `add-emoji.js` | Injects emoji after the `:` based on type |
-| `commit-msg`         | commitlint     | Validates message format and type         |
-| `pre-commit`         | lint-staged    | Runs ESLint + Prettier on staged files    |
+| Hook                 | File           | Responsibility                         |
+| -------------------- | -------------- | -------------------------------------- |
+| `prepare-commit-msg` | `add-emoji.js` | Injects emoji after `:` based on type  |
+| `commit-msg`         | commitlint     | Validates format and type              |
+| `pre-commit`         | lint-staged    | Runs ESLint + Prettier on staged files |
 
 ### Flow
 
 ```
 git commit -m "feat(auth): add login"
-        ↓ prepare-commit-msg hook
-        ↓ add-emoji.js reads type → "feat" → ":sparkles:"
-        ↓ rewrites message
+    ↓ prepare-commit-msg hook
+    ↓ add-emoji.js reads type → "feat" → ":sparkles:"
+    ↓ rewrites message
 "feat(auth): :sparkles: add login"
-        ↓ commit-msg hook
-        ↓ commitlint validates → PASS ✅
-        ↓ commit created
+    ↓ commit-msg hook
+    ↓ commitlint validates → PASS ✅
+    ↓ commit created
 ```
 
 ---
@@ -46,19 +58,15 @@ git commit -m "feat(auth): add login"
 
 ```
 <type>(<scope>): <description in lowercase>
-
-Examples:
-feat(auth): add login form
-fix(api): resolve timeout on retry
-docs(readme): update setup instructions
 ```
 
-> ⚠️ Do NOT manually add emoji — the hook inserts it automatically.
-> If the message already starts with `:emoji:` after the colon, the hook skips injection.
+- **type** — required, must be one of the valid types below
+- **scope** — optional, describes the area of code (e.g., `auth`, `readme`, `api`)
+- **description** — required, lowercase, no period at the end
 
 ---
 
-## Emoji Map
+## Emoji Map (auto-injected, never write manually)
 
 | Type       | Emoji code              | Visual | Meaning                 |
 | ---------- | ----------------------- | ------ | ----------------------- |
@@ -76,87 +84,46 @@ docs(readme): update setup instructions
 
 ---
 
-## Commit Types Reference
-
-### `feat` — New feature
+## Examples by Type
 
 ```bash
-git commit -m "feat: add user dashboard"
-git commit -m "feat(auth): add OAuth with Google"
-# Result: feat(auth): :sparkles: add oauth with google
-```
+# feat — new feature
+git commit -m "feat(skills): add supabase badge"
+git commit -m "feat(auth): add oauth with google"
 
-### `fix` — Bug fix
-
-```bash
-git commit -m "fix: resolve null pointer on login"
+# fix — bug fix
+git commit -m "fix(readme): correct broken image link"
 git commit -m "fix(api): handle 429 rate limit response"
-# Result: fix(api): :bug: handle 429 rate limit response
-```
 
-### `refactor` — Code refactor (no behavior change)
+# docs — documentation
+git commit -m "docs(readme): update setup instructions"
+git commit -m "docs: add agents.md global config"
 
-```bash
-git commit -m "refactor(store): extract reducer into separate file"
-# Result: refactor(store): :recycle: extract reducer into separate file
-```
+# refactor — code refactor (no behavior change)
+git commit -m "refactor(generate-readme): replace require with readFileSync"
 
-### `test` — Add or update tests
+# chore — maintenance
+git commit -m "chore: update pnpm lockfile"
+git commit -m "chore(deps): upgrade typescript to 5.9"
 
-```bash
-git commit -m "test(auth): add unit tests for login service"
-# Result: test(auth): :white_check_mark: add unit tests for login service
-```
-
-### `docs` — Documentation only
-
-```bash
-git commit -m "docs: update readme with setup guide"
-# Result: docs: :memo: update readme with setup guide
-```
-
-### `chore` — Maintenance (no production code change)
-
-```bash
-git commit -m "chore: update dependencies"
-git commit -m "chore(lint): disable rule for test files"
-# Result: chore(lint): :wrench: disable rule for test files
-```
-
-### `style` — Formatting, no logic change
-
-```bash
-git commit -m "style: run prettier on all files"
-# Result: style: :lipstick: run prettier on all files
-```
-
-### `build` — Build system or dependencies
-
-```bash
-git commit -m "build: upgrade typescript to 5.9"
+# build — build system or dependencies
+git commit -m "build: add pnpm as package manager"
 git commit -m "build(deps): add zod for validation"
-# Result: build(deps): :package: add zod for validation
-```
 
-### `ci` — CI/CD configuration
+# style — formatting only, no logic change
+git commit -m "style: run prettier on all files"
 
-```bash
+# test — add or update tests
+git commit -m "test(auth): add unit tests for login service"
+
+# ci — CI/CD changes
 git commit -m "ci: add github actions workflow"
-# Result: ci: :construction_worker: add github actions workflow
-```
 
-### `perf` — Performance improvement
+# perf — performance improvement
+git commit -m "perf(cache): memoize skill badge generation"
 
-```bash
-git commit -m "perf(cache): add redis cache for api responses"
-# Result: perf(cache): :zap: add redis cache for api responses
-```
-
-### `revert` — Revert a previous commit
-
-```bash
+# revert — revert a previous commit
 git commit -m "revert: undo feat(auth): add oauth"
-# Result: revert: :rewind: undo feat(auth): add oauth
 ```
 
 ---
@@ -172,19 +139,21 @@ git commit -m "revert: undo feat(auth): add oauth"
 ### ✅ Valid messages
 
 ```
-feat: add user authentication
+feat(readme): add skills section
 fix(api): resolve timeout error
 refactor(store): split bears store into modules
-test(auth): add integration tests for login
+docs: update readme with setup guide
+chore: update pnpm lockfile
 ```
 
-### ❌ Invalid messages (commitlint will REJECT)
+### ❌ Invalid (commitlint will REJECT)
 
 ```
-Add login form           ← missing type
-FEAT: add login          ← type must be lowercase
-feat: Add Login Form     ← subject must be lowercase
-update: fix stuff        ← "update" is not a valid type
+✨ feat(readme): add skills    ← emoji added manually
+Add login form                 ← missing type
+FEAT: add login                ← type must be lowercase
+feat: Add Login Form           ← subject must be lowercase
+update: fix stuff              ← "update" is not a valid type
 ```
 
 ---
@@ -200,29 +169,18 @@ update: fix stuff        ← "update" is not a valid type
 └── emoji-map.js        → type → emoji mapping
 ```
 
-### `emoji-map.js`
+---
 
-```js
-export const emojiMap = {
-  feat: ':sparkles:',
-  fix: ':bug:',
-  docs: ':memo:',
-  style: ':lipstick:',
-  refactor: ':recycle:',
-  perf: ':zap:',
-  test: ':white_check_mark:',
-  build: ':package:',
-  ci: ':construction_worker:',
-  chore: ':wrench:',
-  revert: ':rewind:',
-};
+## Quick Commit Workflow
+
+```bash
+# 1. Stage changes
+git add .
+
+# 2. Commit following convention (no emojis)
+git commit -m "feat(skills): add react query badge"
+
+# 3. Verify the auto-injected result
+git log --oneline -1
+# → feat(skills): :sparkles: add react query badge
 ```
-
-### `add-emoji.js` logic summary
-
-1. Reads the commit message file (`$1`)
-2. Skips if message starts with `#` (git comment)
-3. Matches pattern: `type(scope): subject` or `type: subject`
-4. Skips if subject already starts with `:emoji:`
-5. Looks up emoji in `emojiMap` by type
-6. Rewrites message as: `type(scope): :emoji: subject`
