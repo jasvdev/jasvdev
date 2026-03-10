@@ -67,7 +67,7 @@ function buildCertificationsSection(groups: tyCertGroup): string {
       const imgTags = images
         .map((src) => {
           const name = basename(src, ".jpg");
-          return `  <img src="${src}" alt="${name}" height="120" />`;
+          return `  <img src="${src}" alt="${name}" height="150" />`;
         })
         .join("\n");
       return `### ${label}\n<p align="left">\n${imgTags}\n</p>`;
