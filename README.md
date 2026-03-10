@@ -96,67 +96,67 @@ Trabajo en entornos ágiles bajo la primicia de que el **clean code**, la **expe
 
 ### DevTalles
 <p align="left">
-  <img src="src/assets/certifications/devTalles/Zustand - Gestor de estado para React.jpg" alt="Zustand - Gestor de estado para React" height="120" />
+  <img src="src/assets/certifications/devTalles/Zustand - Gestor de estado para React.jpg" alt="Zustand - Gestor de estado para React" height="150" />
 </p>
 
 ### Microsoft
 <p align="left">
-  <img src="src/assets/certifications/microsoft/Colaboración_con_Git_page.jpg" alt="Colaboración_con_Git_page" height="120" />
-  <img src="src/assets/certifications/microsoft/create_update_project_git_page.jpg" alt="create_update_project_git_page" height="120" />
-  <img src="src/assets/certifications/microsoft/Código_con_GitHub_Codespaces_page.jpg" alt="Código_con_GitHub_Codespaces_page" height="120" />
-  <img src="src/assets/certifications/microsoft/edición_de_código__creación_ramas_combinación_Git_page.jpg" alt="edición_de_código__creación_ramas_combinación_Git_page" height="120" />
-  <img src="src/assets/certifications/microsoft/generación_análisis_imágenes_GitHub_page.jpg" alt="generación_análisis_imágenes_GitHub_page" height="120" />
-  <img src="src/assets/certifications/microsoft/GitHub_Copilot_JavaScript_page.jpg" alt="GitHub_Copilot_JavaScript_page" height="120" />
-  <img src="src/assets/certifications/microsoft/GitHub_Copilot_Python_page.jpg" alt="GitHub_Copilot_Python_page" height="120" />
-  <img src="src/assets/certifications/microsoft/Introducción_a_Git_page.jpg" alt="Introducción_a_Git_page" height="120" />
-  <img src="src/assets/certifications/microsoft/Introducción_GitHub_Copilot_page.jpg" alt="Introducción_GitHub_Copilot_page" height="120" />
-  <img src="src/assets/certifications/microsoft/minijuego_GitHub_Copilot_page.jpg" alt="minijuego_GitHub_Copilot_page" height="120" />
+  <img src="src/assets/certifications/microsoft/Colaboración_con_Git_page.jpg" alt="Colaboración_con_Git_page" height="150" />
+  <img src="src/assets/certifications/microsoft/create_update_project_git_page.jpg" alt="create_update_project_git_page" height="150" />
+  <img src="src/assets/certifications/microsoft/Código_con_GitHub_Codespaces_page.jpg" alt="Código_con_GitHub_Codespaces_page" height="150" />
+  <img src="src/assets/certifications/microsoft/edición_de_código__creación_ramas_combinación_Git_page.jpg" alt="edición_de_código__creación_ramas_combinación_Git_page" height="150" />
+  <img src="src/assets/certifications/microsoft/generación_análisis_imágenes_GitHub_page.jpg" alt="generación_análisis_imágenes_GitHub_page" height="150" />
+  <img src="src/assets/certifications/microsoft/GitHub_Copilot_JavaScript_page.jpg" alt="GitHub_Copilot_JavaScript_page" height="150" />
+  <img src="src/assets/certifications/microsoft/GitHub_Copilot_Python_page.jpg" alt="GitHub_Copilot_Python_page" height="150" />
+  <img src="src/assets/certifications/microsoft/Introducción_a_Git_page.jpg" alt="Introducción_a_Git_page" height="150" />
+  <img src="src/assets/certifications/microsoft/Introducción_GitHub_Copilot_page.jpg" alt="Introducción_GitHub_Copilot_page" height="150" />
+  <img src="src/assets/certifications/microsoft/minijuego_GitHub_Copilot_page.jpg" alt="minijuego_GitHub_Copilot_page" height="150" />
 </p>
 
 ### Platzy
 <p align="left">
-  <img src="src/assets/certifications/platzy/diploma-arquitecturas-css.jpg" alt="diploma-arquitecturas-css" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-colaboracion-diseno-desarrollo.jpg" alt="diploma-colaboracion-diseno-desarrollo" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-css-grid (1).jpg" alt="diploma-css-grid (1)" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-css-grid.jpg" alt="diploma-css-grid" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-developer.jpg" alt="diploma-developer" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-discretas.jpg" alt="diploma-discretas" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-diseno-product.jpg" alt="diploma-diseno-product" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-expresiones-regulares.jpg" alt="diploma-expresiones-regulares" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-fundamentos-programacion.jpg" alt="diploma-fundamentos-programacion" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-git-github.jpg" alt="diploma-git-github" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-historia-programacion.jpg" alt="diploma-historia-programacion" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-ingenieria2017.jpg" alt="diploma-ingenieria2017" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-obs.jpg" alt="diploma-obs" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-patrones-componentes-diseno.jpg" alt="diploma-patrones-componentes-diseno" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-2022.jpg" alt="diploma-pensamiento-logico-2022" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-data.jpg" alt="diploma-pensamiento-logico-data" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-estructuras-2022.jpg" alt="diploma-pensamiento-logico-estructuras-2022" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-lenguajes-2022.jpg" alt="diploma-pensamiento-logico-lenguajes-2022" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-redes.jpg" alt="diploma-redes" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-sistemas-diseno.jpg" alt="diploma-sistemas-diseno" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-solid-csharp-net.jpg" alt="diploma-solid-csharp-net" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-supabase-avanzado.jpg" alt="diploma-supabase-avanzado" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-supabase.jpg" alt="diploma-supabase" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-technical-writing.jpg" alt="diploma-technical-writing" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-terminal-21.jpg" alt="diploma-terminal-21" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-typescript-22.jpg" alt="diploma-typescript-22" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-typescript-poo.jpg" alt="diploma-typescript-poo" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-typescript-tipos-avanzados.jpg" alt="diploma-typescript-tipos-avanzados" height="120" />
-  <img src="src/assets/certifications/platzy/diploma-web-fundamentos.jpg" alt="diploma-web-fundamentos" height="120" />
-  <img src="src/assets/certifications/platzy/fundamentos-supabase.jpg" alt="fundamentos-supabase" height="120" />
+  <img src="src/assets/certifications/platzy/diploma-arquitecturas-css.jpg" alt="diploma-arquitecturas-css" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-colaboracion-diseno-desarrollo.jpg" alt="diploma-colaboracion-diseno-desarrollo" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-css-grid (1).jpg" alt="diploma-css-grid (1)" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-css-grid.jpg" alt="diploma-css-grid" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-developer.jpg" alt="diploma-developer" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-discretas.jpg" alt="diploma-discretas" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-diseno-product.jpg" alt="diploma-diseno-product" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-expresiones-regulares.jpg" alt="diploma-expresiones-regulares" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-fundamentos-programacion.jpg" alt="diploma-fundamentos-programacion" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-git-github.jpg" alt="diploma-git-github" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-historia-programacion.jpg" alt="diploma-historia-programacion" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-ingenieria2017.jpg" alt="diploma-ingenieria2017" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-obs.jpg" alt="diploma-obs" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-patrones-componentes-diseno.jpg" alt="diploma-patrones-componentes-diseno" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-2022.jpg" alt="diploma-pensamiento-logico-2022" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-data.jpg" alt="diploma-pensamiento-logico-data" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-estructuras-2022.jpg" alt="diploma-pensamiento-logico-estructuras-2022" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-pensamiento-logico-lenguajes-2022.jpg" alt="diploma-pensamiento-logico-lenguajes-2022" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-redes.jpg" alt="diploma-redes" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-sistemas-diseno.jpg" alt="diploma-sistemas-diseno" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-solid-csharp-net.jpg" alt="diploma-solid-csharp-net" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-supabase-avanzado.jpg" alt="diploma-supabase-avanzado" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-supabase.jpg" alt="diploma-supabase" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-technical-writing.jpg" alt="diploma-technical-writing" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-terminal-21.jpg" alt="diploma-terminal-21" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-typescript-22.jpg" alt="diploma-typescript-22" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-typescript-poo.jpg" alt="diploma-typescript-poo" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-typescript-tipos-avanzados.jpg" alt="diploma-typescript-tipos-avanzados" height="150" />
+  <img src="src/assets/certifications/platzy/diploma-web-fundamentos.jpg" alt="diploma-web-fundamentos" height="150" />
+  <img src="src/assets/certifications/platzy/fundamentos-supabase.jpg" alt="fundamentos-supabase" height="150" />
 </p>
 
 ### Udemy
 <p align="left">
-  <img src="src/assets/certifications/udemy/Aprende a dominar Git de cero a experto.jpg" alt="Aprende a dominar Git de cero a experto" height="120" />
-  <img src="src/assets/certifications/udemy/CSS desde cero - Desarrollo Web HTML y CSS3 para profesionales.jpg" alt="CSS desde cero - Desarrollo Web HTML y CSS3 para profesionales" height="120" />
-  <img src="src/assets/certifications/udemy/Curso de Typescript - El Curso antes de Angular, React o Vue.jpg" alt="Curso de Typescript - El Curso antes de Angular, React o Vue" height="120" />
-  <img src="src/assets/certifications/udemy/Gi, GitHub y GitLab -Uso de repositorios de código.jpg" alt="Gi, GitHub y GitLab -Uso de repositorios de código" height="120" />
-  <img src="src/assets/certifications/udemy/GIT+GitHub - Todo un sistema de control de versiones de cero.jpg" alt="GIT+GitHub - Todo un sistema de control de versiones de cero" height="120" />
-  <img src="src/assets/certifications/udemy/Principios SOLID y Clean Code.jpg" alt="Principios SOLID y Clean Code" height="120" />
-  <img src="src/assets/certifications/udemy/TypeScript - Tu completa guía y manual de mano.jpg" alt="TypeScript - Tu completa guía y manual de mano" height="120" />
-  <img src="src/assets/certifications/udemy/Visual Studio Code - Mejora tu velocidad para codificar.jpg" alt="Visual Studio Code - Mejora tu velocidad para codificar" height="120" />
+  <img src="src/assets/certifications/udemy/Aprende a dominar Git de cero a experto.jpg" alt="Aprende a dominar Git de cero a experto" height="150" />
+  <img src="src/assets/certifications/udemy/CSS desde cero - Desarrollo Web HTML y CSS3 para profesionales.jpg" alt="CSS desde cero - Desarrollo Web HTML y CSS3 para profesionales" height="150" />
+  <img src="src/assets/certifications/udemy/Curso de Typescript - El Curso antes de Angular, React o Vue.jpg" alt="Curso de Typescript - El Curso antes de Angular, React o Vue" height="150" />
+  <img src="src/assets/certifications/udemy/Gi, GitHub y GitLab -Uso de repositorios de código.jpg" alt="Gi, GitHub y GitLab -Uso de repositorios de código" height="150" />
+  <img src="src/assets/certifications/udemy/GIT+GitHub - Todo un sistema de control de versiones de cero.jpg" alt="GIT+GitHub - Todo un sistema de control de versiones de cero" height="150" />
+  <img src="src/assets/certifications/udemy/Principios SOLID y Clean Code.jpg" alt="Principios SOLID y Clean Code" height="150" />
+  <img src="src/assets/certifications/udemy/TypeScript - Tu completa guía y manual de mano.jpg" alt="TypeScript - Tu completa guía y manual de mano" height="150" />
+  <img src="src/assets/certifications/udemy/Visual Studio Code - Mejora tu velocidad para codificar.jpg" alt="Visual Studio Code - Mejora tu velocidad para codificar" height="150" />
 </p>
 
 ## 📊 GitHub Stats
